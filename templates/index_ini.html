@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+</head>
+<body>
+	<h4>Hola Mundo desde Python.</h4>
+	<h4> {{ nombre }} </h4>
+	<p> {{ age }}</p>
+
+	{% if age > 18 %}
+		<p>Es mayor de edad</p>
+	{% endif %}
+
+	{% for item in list %}
+		<p> {{ item }} </p>
+	{% endfor %}
+</body>
+</html>
